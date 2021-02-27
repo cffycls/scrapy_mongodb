@@ -93,3 +93,9 @@ ITEM_PIPELINES = {
 #HTTPCACHE_DIR = 'httpcache'
 #HTTPCACHE_IGNORE_HTTP_CODES = []
 #HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
+
+# mongodb
+mongodb_host = "localhost"
+mongodb_port = 27017
+mongodb_dbname = "douban"
+mongodb_collection = "douban_movie"
